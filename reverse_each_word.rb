@@ -5,7 +5,7 @@ def reverse_each_word(string)
     word.to_s
     text = "#{word}".reverse
     reversed_string = ""
-    reversed_string<<text
+    reversed_string += text
 return reversed_string
   end
 
