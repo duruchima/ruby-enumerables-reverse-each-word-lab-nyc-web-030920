@@ -3,7 +3,7 @@ def reverse_each_word(string)
   reversed_string = ""
   array.each do |word|
     word.to_s
-    text = " #{word}".reverse.strip
+    text = " #{word}".reverse.chomp
     reversed_string.concat text
   end
   return reversed_string
