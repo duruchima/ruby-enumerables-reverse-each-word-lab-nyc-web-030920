@@ -3,9 +3,9 @@ def reverse_each_word(string)
   i=0
   reversed_string = ""
   array.each do |word|
-    word.join (' ')
+    word.to_s
     text = "#{word}".reverse
     reversed_string text
   end
-  return reversed_string
+  return reversed_string.join(' ')
 end
