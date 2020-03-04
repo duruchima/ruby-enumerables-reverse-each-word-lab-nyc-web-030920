@@ -7,5 +7,5 @@ def reverse_each_word(string)
     text = "#{word}".reverse
     reversed_string << text
   end
-  return reversed_string.join(' ')
+  return reversed_string
 end
